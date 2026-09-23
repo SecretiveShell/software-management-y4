@@ -13,9 +13,9 @@ PROGRAM OBJECTIVES
 
 1.0	ESTABLISH PROJECT SELECTION CRITERIA
 Establish and facilitate project selection criteria that are aligned with the business's objectives and direction.
-1.1	 
-1.2	 
-1.3	 
+1.1	 Show the costs have reduced due to the chatbot (quantifiable results)
+1.2	 Make sure that the project meets 1-2 out of the three iron triangle criteria (Time, Quality and Cost)
+1.3	 Make sure to asertain the scope of the project or adjust the scope accordingly
 1.4	 
 1.5	 
 1.6	 
@@ -25,7 +25,7 @@ Establish and facilitate project selection criteria that are aligned with the bu
  
 2.0	MEASURE PROJECT PERFORMANCE
 Encourage a project environment that is focused on performance and execution.
-2.1	 
+2.1	 Make sure to get rid of any blockers that are in the way of development 
 2.2	 
 2.3	 
 2.4	 
@@ -35,7 +35,7 @@ Encourage a project environment that is focused on performance and execution.
  	 
 3.0	ENABLE PROJECT DELIVERY
 Collaborate with stakeholders from all departments to help ensure successful project outcomes.
-3.1	 
+3.1	
 3.2	 
 3.3	 
 3.4	 
