@@ -2,7 +2,6 @@
 
 The goal of the project is to create a chatbot that answers customer support queries at a lower cost than human employees. Jon Jones wants to reduce customer support operating costs.
 
-
 ## Scope
 
 ### Goals
@@ -39,3 +38,37 @@ The goal of the project is to create a chatbot that answers customer support que
     - If so, do you have any strict criteria or process in mind for this?
     - Do you have an organisational topology diagram we can use to implement routing?
 10) Do you have a dataset of past support interactions we can use to train the model and evaluate the overall performance of the system?
+
+## Development
+
+### Team and staffing cost
+
+| Staff                            | Responsibility                                               | Days over 5 weeks |          Cost |
+|----------------------------------|--------------------------------------------------------------|------------------:|--------------:|
+| 9 — Dev Web                      | Technical lead; builds the web chatbot and integrations      |                25 |     £3,846.15 |
+| 14 — Placement Student           | Application developer; builds and tests features             |                25 |     £2,403.85 |
+| 3 — Business Analyst             | Defines requirements, test questions and acceptance criteria |               2.5 |       £432.69 |
+| 2 — TDA                          | Reviews the solution design, data access and security        |               2.5 |       £480.77 |
+| **Core team total**              |                                                              |            **55** | **£7,163.46** |
+| 8 — SQL DBA (optional)           | Supports database access if the chatbot uses SQL data        |                 2 |       £269.23 |
+| **Total including optional DBA** |                                                              |            **57** | **£7,432.69** |
+
+### Budget
+
+| Item                                    |        Amount |
+|-----------------------------------------|--------------:|
+| Total project budget                    |    £15,000.00 |
+| Core staffing                           |    −£7,163.46 |
+| Optional SQL DBA: up to 2 days          |      −£269.23 |
+| **Remaining, including DBA allocation** | **£7,567.31** |
+
+The remaining budget covers hosting, model usage, other project costs and contingency. Staffing costs are derived from annual salaries, not employer charge-out rates.
+
+### Five-week schedule
+
+| Week | Deliverable                                                    |
+|------|----------------------------------------------------------------|
+| 1    | Agree scope, approved sources, access rules and test questions |
+| 2–3  | Build the chatbot and web interface                            |
+| 4    | Evaluate answers and fix critical failures                     |
+| 5    | Pilot with users and hand over                                 |
