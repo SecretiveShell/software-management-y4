@@ -38,6 +38,7 @@ The goal of the project is to create a chatbot that answers customer support que
     - If so, do you have any strict criteria or process in mind for this?
     - Do you have an organisational topology diagram we can use to implement routing?
 10) Do you have a dataset of past support interactions we can use to train the model and evaluate the overall performance of the system?
+11) Do you have any exisitng infrastructure or technology stack in place?
 
 ## Development
 
