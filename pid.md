@@ -74,3 +74,64 @@ The remaining budget covers hosting, model usage, other project costs and contin
 | 2–3  | Build the chatbot and web interface                            |
 | 4    | Evaluate answers and fix critical failures                     |
 | 5    | Pilot with users and hand over                                 |
+
+```mermaid
+gantt
+    title Five-week project schedule
+    dateFormat YYYY-MM-DD
+    axisFormat Day %j
+    tickInterval 1week
+
+    section Week 1
+    Agree scope, sources, access rules and test questions :scope, 2026-01-01, 7d
+    section Weeks 2–3
+    Build chatbot and web interface                     :build, after scope, 14d
+    section Week 4
+    Evaluate answers and fix critical failures          :evaluate, after build, 7d
+    section Week 5
+    Pilot with users and hand over                      :handover, after evaluate, 7d
+```
+
+The chart uses a placeholder start date to show relative days across five weeks; the actual start date is to be agreed with the client.
+
+## Risk
+
+1) the agent could provide the wrong answer to the users question.
+    - AB test the support agent with a small set of users to validate answers
+2) the agent cannot be held accountable for lawsuits or legal risk.
+    - insurance
+    - legal review and corporate compliance
+3) users might find the support agent frustrating to use.
+    - human fallback is built into the system
+4) if the support agent experiences a system outage then the company will be unable to provide customer support.
+    - independent FAQs page
+    - redundant deployments/replica sets
+    - backups
+    - fallback human support staff able to handle urgent queries over email
+    - SLA
+5) the results might be of a lower quality compared to the previous human call centre.
+    - evaluations and testing to identify any weaknesses
+    - using official company sources to generate answers
+6) the project might exceed the allocated budget
+    - actively monitor finances
+    - keep to a strcit scope and prevent large changes without additional budget increases
+7) the project might be delayed
+    - implement a maximum time required to wait for PR reviews
+    - keep scope well defined
+    - analyze buisness goals in advance and avoid assumptions
+    - Project manager actively monitors progress via weekly checkins
+
+## Assumptions
+
+1) no severe staff ilness/unavailability
+2) client provides sufficiently clear answers to questions
+3) no large scale system outages with external providers (e.g. github)
+4) timely client feedback
+5) support request volume is sufficiently low that generative AI is not prohibitively expensive and scaling is not a huge architectural concern.
+
+## Acceptance Criteria
+
+1) Client has a functional forward deployed customer support agent.
+2) The agent can answer all incoming querues either automatically or by escalating to support workers for more complex queries.
+3) We can measure an improved cost-per-query metric, and demonstrate that the agent is cheaper to operate overall compared to the previous call centre.
+4) The client has successfully transitioned to the new automated agent in production
