@@ -11,6 +11,8 @@ The goal of the project is to create a chatbot that answers customer support que
 - reduce the duration of support sessions by providing accurate, faster responses
 - agree which queries the chatbot will handle and when to refer users to human support
 - deliver within the agreed budget, deadline and quality requirements
+- reduce staffing count from 50 to 10 (80% reduction)
+- prefer cost and time over quality
 
 ### Out of Scope
 
