@@ -35,6 +35,24 @@ By completing this project, we can build a working client relationship with John
 
 - opportunity cost of >£800k
 
+## Force Field
+<!-- 
+| for                                         | score | against                            | score |
+|---------------------------------------------|-------|------------------------------------|-------|
+| Cost Reduction                              | 4     | Poor Situation Specific Support    | 2     |
+| 24/7 operations                             | 3     | Lack of human interaction          | 1     |
+| reduced HR overhead and training            | 2     | possible low customer satisfaction | 2     |
+| Faster support turn around time             | 2     | Privacy concerns                   | 4     |
+| multilingual support (internationalisation) | 3     | development costs                  | 5     | -->
+
+![diagram](./diagrams/diagram-good.svg)
+
+We can mitigate the impact of development costs by allocationg a portion of the budget as a reserve for any unexpected costs.
+
+In order to address any privacy concerns we can audit the software for regulatory compliace with GDPR, DPA, and ensure we do not log any unnecessary information.
+
+Low situation specific support and lack of human interaction are low impact forces during the inial project scope as we are retaining 10 fallback support staff to handle this specific situation.
+
 ---
 
 ## Goals
