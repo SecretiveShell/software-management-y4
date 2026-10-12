@@ -16,7 +16,7 @@ By completing this project, we can build a working client relationship with John
 
 ### Outsource customer support to a 3rd party call centre
 
-- Indian accent (language barrier) is poorly recieved by customers and harms brand image.
+- Strong affluent accent (language barrier) is poorly recieved by customers and harms brand image.
 - Higher operational costs compared to inhouse soloution.
 - Call centres might be unavailable during buisness hours (timezone differences)
 - customer support experience is more generic and less tailored to our company
@@ -30,10 +30,11 @@ By completing this project, we can build a working client relationship with John
 ### Direct customers to an FAQ page
 
 - Too generic to accomodate the unique experience of each customer
+- No way to upsell clients on additional support
 
 ### Do nothing
 
-- opportunity cost of >£800k
+- opportunity cost of >~£800k
 
 ## Force Field
 <!-- 
@@ -52,8 +53,6 @@ We can mitigate the impact of development costs by allocationg a portion of the 
 In order to address any privacy concerns we can audit the software for regulatory compliace with GDPR, DPA, and ensure we do not log any unnecessary information.
 
 Low situation specific support and lack of human interaction are low impact forces during the inial project scope as we are retaining 10 fallback support staff to handle this specific situation.
-
----
 
 ## Goals
 
