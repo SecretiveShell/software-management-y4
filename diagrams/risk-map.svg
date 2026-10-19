@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 110 940 660" role="img" aria-labelledby="title desc">
+  <title id="title">Project risk map</title>
+  <desc id="desc">Risk IDs grouped by probability and impact from the risk register. Probability increases upwards; impact increases to the right. High probability and high impact: risks 23 and 28.</desc>
+  <style>text { font-family: DejaVu Sans, Arial, sans-serif; fill: #243247; } .axis { font-size: 19px; font-weight: 700; } .label { font-size: 16px; fill: #65758b; } .id { font-size: 16px; font-weight: 700; fill: #ffffff; }</style>
+  <text class="axis" x="32" y="420" text-anchor="middle" transform="rotate(-90 32 420)">Probability →</text>
+  <text class="label" x="151" y="205" text-anchor="end">High</text>
+  <rect x="175" y="130" width="242" height="132" fill="#e7edf4" rx="8" />
+  <text class="label" x="300" y="205" text-anchor="middle" fill="#536579">—</text>
+  <rect x="425" y="130" width="242" height="132" fill="#faecee" rx="8" />
+  <text class="label" x="550" y="205" text-anchor="middle" fill="#536579">—</text>
+  <rect x="675" y="130" width="242" height="132" fill="#f3d7dc" rx="8" />
+  <g>
+    <title>Risk 23: Risk of poor software visibility and observability</title>
+    <rect x="698" y="143" width="52" height="30" rx="5" fill="#b34f59" />
+    <text class="id" x="724" y="163" text-anchor="middle">23</text>
+  </g>
+  <g>
+    <title>Risk 28: Risk of customer requirments changing as the project developes (hidden requirements or incorrect assumptions)</title>
+    <rect x="774" y="143" width="52" height="30" rx="5" fill="#b34f59" />
+    <text class="id" x="800" y="163" text-anchor="middle">28</text>
+  </g>
+  <text class="label" x="151" y="345" text-anchor="end">Medium</text>
+  <rect x="175" y="270" width="242" height="132" fill="#e7f3f0" rx="8" />
+  <g>
+    <title>Risk 21: Risk of poor database backup implementation</title>
+    <rect x="198" y="283" width="52" height="30" rx="5" fill="#167d73" />
+    <text class="id" x="224" y="303" text-anchor="middle">21</text>
+  </g>
+  <rect x="425" y="270" width="242" height="132" fill="#e7edf4" rx="8" />
+  <g>
+    <title>Risk 1: Team might not operate well and achieve the goal</title>
+    <rect x="448" y="283" width="52" height="30" rx="5" fill="#65758b" />
+    <text class="id" x="474" y="303" text-anchor="middle">1</text>
+  </g>
+  <g>
+    <title>Risk 6: Risk of poor quality answers to client questions</title>
+    <rect x="524" y="283" width="52" height="30" rx="5" fill="#65758b" />
+    <text class="id" x="550" y="303" text-anchor="middle">6</text>
+  </g>
+  <g>
+    <title>Risk 7: Risk of poor quality initial seed data when constructing the answers</title>
+    <rect x="600" y="283" width="52" height="30" rx="5" fill="#65758b" />
+    <text class="id" x="626" y="303" text-anchor="middle">7</text>
+  </g>
+  <g>
+    <title>Risk 11: Risk of underestimating the scale of load on the platform</title>
+    <rect x="448" y="324" width="52" height="30" rx="5" fill="#65758b" />
+    <text class="id" x="474" y="344" text-anchor="middle">11</text>
+  </g>
+  <g>
+    <title>Risk 12: Risk of scope creep and additional features during development</title>
+    <rect x="524" y="324" width="52" height="30" rx="5" fill="#65758b" />
+    <text class="id" x="550" y="344" text-anchor="middle">12</text>
+  </g>
+  <g>
+    <title>Risk 30: Risk of software vulnerability in the final artifact</title>
+    <rect x="600" y="324" width="52" height="30" rx="5" fill="#65758b" />
+    <text class="id" x="626" y="344" text-anchor="middle">30</text>
+  </g>
+  <rect x="675" y="270" width="242" height="132" fill="#faecee" rx="8" />
+  <g>
+    <title>Risk 2: Risk of not meeting customer requirements</title>
+    <rect x="698" y="283" width="52" height="30" rx="5" fill="#b34f59" />
+    <text class="id" x="724" y="303" text-anchor="middle">2</text>
+  </g>
+  <g>
+    <title>Risk 10: Risk of potential security concerns</title>
+    <rect x="774" y="283" width="52" height="30" rx="5" fill="#b34f59" />
+    <text class="id" x="800" y="303" text-anchor="middle">10</text>
+  </g>
+  <g>
+    <title>Risk 27: Risk of misunderstanding customer requirements</title>
+    <rect x="850" y="283" width="52" height="30" rx="5" fill="#b34f59" />
+    <text class="id" x="876" y="303" text-anchor="middle">27</text>
+  </g>
+  <text class="label" x="151" y="485" text-anchor="end">Low</text>
+  <rect x="175" y="410" width="242" height="132" fill="#e7f3f0" rx="8" />
+  <g>
+    <title>Risk 15: Risk of openai increasing costs of inference</title>
+    <rect x="198" y="423" width="52" height="30" rx="5" fill="#167d73" />
+    <text class="id" x="224" y="443" text-anchor="middle">15</text>
+  </g>
+  <g>
+    <title>Risk 16: Risk of server host increasing price of VPS instances (hetzner)</title>
+    <rect x="274" y="423" width="52" height="30" rx="5" fill="#167d73" />
+    <text class="id" x="300" y="443" text-anchor="middle">16</text>
+  </g>
+  <g>
+    <title>Risk 17: Risk of outage with external 3rd party VPS provider (hetzner)</title>
+    <rect x="350" y="423" width="52" height="30" rx="5" fill="#167d73" />
+    <text class="id" x="376" y="443" text-anchor="middle">17</text>
+  </g>
+  <g>
+    <title>Risk 25: Staff might lack skills in chosen tech stack (we have placement student as an eng)</title>
+    <rect x="198" y="464" width="52" height="30" rx="5" fill="#167d73" />
+    <text class="id" x="224" y="484" text-anchor="middle">25</text>
+  </g>
+  <rect x="425" y="410" width="242" height="132" fill="#e7f3f0" rx="8" />
+  <g>
+    <title>Risk 8: Risk of missing project delivery deadline</title>
+    <rect x="448" y="423" width="52" height="30" rx="5" fill="#167d73" />
+    <text class="id" x="474" y="443" text-anchor="middle">8</text>
+  </g>
+  <g>
+    <title>Risk 9: Risk of artifact delivery and deployment issues or incompatibilities</title>
+    <rect x="524" y="423" width="52" height="30" rx="5" fill="#167d73" />
+    <text class="id" x="550" y="443" text-anchor="middle">9</text>
+  </g>
+  <g>
+    <title>Risk 19: Risk of failing to meet accessibility standards</title>
+    <rect x="600" y="423" width="52" height="30" rx="5" fill="#167d73" />
+    <text class="id" x="626" y="443" text-anchor="middle">19</text>
+  </g>
+  <g>
+    <title>Risk 20: Risk of biased or unrepresentative user testing results</title>
+    <rect x="448" y="464" width="52" height="30" rx="5" fill="#167d73" />
+    <text class="id" x="474" y="484" text-anchor="middle">20</text>
+  </g>
+  <g>
+    <title>Risk 24: Team members might be unavailable do to ilness or external obligations</title>
+    <rect x="524" y="464" width="52" height="30" rx="5" fill="#167d73" />
+    <text class="id" x="550" y="484" text-anchor="middle">24</text>
+  </g>
+  <g>
+    <title>Risk 26: Estimations might be inaccurate</title>
+    <rect x="600" y="464" width="52" height="30" rx="5" fill="#167d73" />
+    <text class="id" x="626" y="484" text-anchor="middle">26</text>
+  </g>
+  <rect x="675" y="410" width="242" height="132" fill="#e7edf4" rx="8" />
+  <g>
+    <title>Risk 3: Risk of poor customer communication</title>
+    <rect x="698" y="423" width="52" height="30" rx="5" fill="#65758b" />
+    <text class="id" x="724" y="443" text-anchor="middle">3</text>
+  </g>
+  <g>
+    <title>Risk 4: Risk of budget overrun</title>
+    <rect x="774" y="423" width="52" height="30" rx="5" fill="#65758b" />
+    <text class="id" x="800" y="443" text-anchor="middle">4</text>
+  </g>
+  <g>
+    <title>Risk 5: Risk of external inference provider outage (openai)</title>
+    <rect x="850" y="423" width="52" height="30" rx="5" fill="#65758b" />
+    <text class="id" x="876" y="443" text-anchor="middle">5</text>
+  </g>
+  <g>
+    <title>Risk 13: Risk of missing tooling required to develop project (vscode, neovim etc)</title>
+    <rect x="698" y="464" width="52" height="30" rx="5" fill="#65758b" />
+    <text class="id" x="724" y="484" text-anchor="middle">13</text>
+  </g>
+  <g>
+    <title>Risk 14: Risk of misallocating work amongst team members</title>
+    <rect x="774" y="464" width="52" height="30" rx="5" fill="#65758b" />
+    <text class="id" x="800" y="484" text-anchor="middle">14</text>
+  </g>
+  <g>
+    <title>Risk 18: Risk of potential GDPR violations if people supply personal data</title>
+    <rect x="850" y="464" width="52" height="30" rx="5" fill="#65758b" />
+    <text class="id" x="876" y="484" text-anchor="middle">18</text>
+  </g>
+  <g>
+    <title>Risk 22: Risk of poor disaster recovery plan</title>
+    <rect x="698" y="505" width="52" height="30" rx="5" fill="#65758b" />
+    <text class="id" x="724" y="525" text-anchor="middle">22</text>
+  </g>
+  <g>
+    <title>Risk 31: Risk of vulnerability in the underlying VPS software</title>
+    <rect x="774" y="505" width="52" height="30" rx="5" fill="#65758b" />
+    <text class="id" x="800" y="525" text-anchor="middle">31</text>
+  </g>
+  <text class="label" x="151" y="625" text-anchor="end">Very Low</text>
+  <rect x="175" y="550" width="242" height="132" fill="#e7f3f0" rx="8" />
+  <text class="label" x="300" y="625" text-anchor="middle" fill="#536579">—</text>
+  <rect x="425" y="550" width="242" height="132" fill="#e7f3f0" rx="8" />
+  <text class="label" x="550" y="625" text-anchor="middle" fill="#536579">—</text>
+  <rect x="675" y="550" width="242" height="132" fill="#e7f3f0" rx="8" />
+  <g>
+    <title>Risk 29: Risk of supply chain attacks on critical dependencies</title>
+    <rect x="698" y="563" width="52" height="30" rx="5" fill="#167d73" />
+    <text class="id" x="724" y="583" text-anchor="middle">29</text>
+  </g>
+  <text class="label" x="300" y="720" text-anchor="middle">Low</text>
+  <text class="label" x="550" y="720" text-anchor="middle">Medium</text>
+  <text class="label" x="800" y="720" text-anchor="middle">High</text>
+  <text class="axis" x="550" y="754" text-anchor="middle">Impact →</text>
+</svg>
