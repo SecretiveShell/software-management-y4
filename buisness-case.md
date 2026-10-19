@@ -1,6 +1,6 @@
 # Buisness Case
 
-The purpose of this document is to outline the buisness case for developing and deploying a customer facing support chatbot at scale.
+The purpose of this document is to outline the buisness case for developing and deploying a customer facing support chatbot at scale. This document will include evaluating the available solutions, estimate their costs and benefits, identify associated risks, and recommend an appropriate approach to achieving the organisation's objectives.
 
 The purpose of this project is to reduce operating costs and streamline the support experience for end users by providing faster assistance. We have 50 human support staff which costs us upwards of £1.15 million per annum. If we can reduce the amount of staff to 10 (80% reduction), we can lower this figure to £185k per annum, not including overhead costs such as office space, equipment and other expenses.
 
@@ -10,13 +10,20 @@ The current support process relies heavily on manual human support via a dedicat
 
 Though this project, we have an opportunity to reduce overhead costs by delegating the simpler routine support inquries to a lower cost AI support team. This will improve the operating efficiency of the support team and reduce the amount of human staff required.
 
-By completing this project, we can build a working client relationship with Johnathon Johnes, who operates a multi-million dollar enterprise.
+By completing this project, we can build a working client relationship with Johnathon Jones, who operates a multi-million dollar enterprise.
+
+## Description of the Problem and Opportunity
+
+Jon Jones currently employs 50 customer support staff, resulting in significant ongoing staffing expenditure. The client aims to reduce this workforce to 10 employees to lower operating costs while maintaining an effective customer support service.
+
+Many routine customer enquiries are suitable for automation, creating an opportunity to reduce the demand for human support. An AI-powered chatbot could provide faster responses to common enquiries, while directing more complex issues to the remaining support employees.
 
 ## Alternative Options
 
 ### Outsource customer support to a 3rd party call centre
 
-- Strong affluent accent (language barrier) is poorly recieved by customers and harms brand image.
+- Outsourcing may introduce challenges involving service quality
+- Data protection
 - Higher operational costs compared to inhouse soloution.
 - Call centres might be unavailable during buisness hours (timezone differences)
 - customer support experience is more generic and less tailored to our company
@@ -26,6 +33,8 @@ By completing this project, we can build a working client relationship with John
 - Costly to produce
 - Need to be reproduced if a product has a design change
 - Not accessible to impared customers
+- More suitable for product tutorials rather than general customer support
+
 
 ### Direct customers to an FAQ page
 
@@ -35,6 +44,11 @@ By completing this project, we can build a working client relationship with John
 ### Do nothing
 
 - opportunity cost of >~£800k
+
+## Selected Option
+
+Our client has decided to create an AI powered chatbot because it provides higher quality responses, has a lower operating margin and allows us to maintain an inhouse support system rather than outsourcing to another company, improving our resilience and reducing external dependencies.
+
 
 ## Force Field
 <!-- 
