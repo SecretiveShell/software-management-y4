@@ -28,11 +28,9 @@ Jon Jones currently employs 50 customer support staff, resulting in significant 
 
 Many routine customer enquiries are suitable for automation, creating an opportunity to reduce the demand for human support. An AI-powered chatbot could provide faster responses to common enquiries, while directing more complex issues to the remaining support employees.
 
-
 ## Cost Benefit Appraisal
 
 ...
-
 
 ## Alternative Options
 
@@ -51,7 +49,6 @@ Many routine customer enquiries are suitable for automation, creating an opportu
 - Not accessible to impared customers
 - More suitable for product tutorials rather than general customer support
 
-
 ### Direct customers to an FAQ page
 
 - Too generic to accomodate the unique experience of each customer
@@ -65,16 +62,15 @@ Many routine customer enquiries are suitable for automation, creating an opportu
 
 Our client has decided to create an AI powered chatbot because it provides higher quality responses, has a lower operating margin and allows us to maintain an inhouse support system rather than outsourcing to another company, improving our resilience and reducing external dependencies.
 
-
 ## Force Field
 <!-- 
-| for                                         | score | against                            | score |
-|---------------------------------------------|-------|------------------------------------|-------|
-| Cost Reduction                              | 4     | Poor Situation Specific Support    | 2     |
-| 24/7 operations                             | 3     | Lack of human interaction          | 1     |
-| reduced HR overhead and training            | 2     | possible low customer satisfaction | 2     |
-| Faster support turn around time             | 2     | Privacy concerns                   | 4     |
-| multilingual support (internationalisation) | 3     | development costs                  | 5     | -->
+| for                                         | score | against                            | score |     |
+|---------------------------------------------|-------|------------------------------------|-------|-----|
+| Cost Reduction                              | 4     | Poor Situation Specific Support    | 2     |     |
+| 24/7 operations                             | 3     | Lack of human interaction          | 1     |     |
+| reduced HR overhead and training            | 2     | possible low customer satisfaction | 2     |     |
+| Faster support turn around time             | 2     | Privacy concerns                   | 4     |     |
+| multilingual support (internationalisation) | 3     | development costs                  | 5     | --> |
 
 ![diagram](./diagrams/diagram-good.svg)
 
@@ -84,10 +80,10 @@ In order to address any privacy concerns we can audit the software for regulator
 
 Low situation specific support and lack of human interaction are low impact forces during the inial project scope as we are retaining 10 fallback support staff to handle this specific situation.
 
-
 ## Impacts and Risks
 
 Once the project has been completed, the impacts will be:
+
 - Working environment
 The working environment will change significantly as the number of staff will be reduced,  so the remaining staff will work closer together and the culture inside may start to feel as a family.
 - Financially
@@ -102,6 +98,7 @@ The customer satisfaction will definitely be impacted because there will be some
 The workload on the remaining staff will be impacted. It will decrease because the chatbot can be used as a filter to only pass on the few complex questions, meaning that the staff won't have to deal with passing over questions to certain departments and they can just focus on answering the few questions that go to them.
 
 Here are the likely and more important risks with ways to mitigate them:
+
 - Risk of poor software visibility and observability.
 Mitigation technique: Create grafana dashboards and utilise them during development.
 - Risk of customer requirments changing as the project developes (hidden requirements or incorrect assumptions).
@@ -113,14 +110,7 @@ Mitigation technique: Ensure we use up to date libraries for security critical c
 - Risk of misunderstanding customer requirements
 Mitigation technique: Create a signed project brief with scope.
 
-
 ## Conclusions and Recommendations
-
-
-
-
-
-
 
 ## Goals
 

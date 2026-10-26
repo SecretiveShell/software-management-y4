@@ -57,10 +57,17 @@ see above
 - no sudden legislative changes will impact the project
 - our developer staff will not seek to terminate their employment until the project has completed
 - the client follows through on their commitment to provide seed data, and that seed data is in a computationally readable format
+- change management cost of £5,000 for the initial rollout/training, then £1,000/year refresher/process overhead to deploy
 
 ### Issues
+
+- hardware cost increases due to AI
+- placement student is not always available due to uni work
+- placement student has some unexpected skill deficits and lack of experience
+- web developer is training placement student on the job which might cause delays
 
 ### Dependencies
 
 - server hosting provider
 - AI inference provider
+- reliable client communication
