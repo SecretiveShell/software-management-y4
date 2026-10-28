@@ -10,10 +10,17 @@ The current support process relies heavily on manual human support via a dedicat
 
 Through this project, we have an opportunity to reduce overhead costs by delegating the simpler routine support inquries to a lower cost AI support team. This will improve the operating efficiency of the support team and reduce the amount of human staff required.
 
-By completing this project, we can build a working client relationship with Johnathon Jones, who operates a multi-million dollar enterprise.
+Alternative options:
+- Outsource customer support to a 3rd party call centre
+- Asyncronous Visual/Interactive demos
+- Direct customers to an FAQ page
+- Do nothing
 
 Selected option:
 An AI powered chatbot because it provides higher quality responses, has a lower operating margin and allows inhouse support system rather than outsourcing to another company, improving our resilience and reducing external dependencies.
+
+By completing this project, we can build a working client relationship with Johnathon Jones, who operates a multi-million dollar enterprise.
+
 
 ## Description of the Problem and Opportunity
 
@@ -100,6 +107,8 @@ Mitigation technique: Create a signed project brief with scope.
 Mitigation technique: Ensure client is involved in many stages of development.
 - Risk of potential security concerns.
 Mitigation technique: Ensure we use up to date libraries for security critical code paths and consider security during design.
+- Risk of misunderstanding customer requirements
+Mitigation technique: Create a signed project brief with scope.
 
 ## Conclusions and Recommendations
 
