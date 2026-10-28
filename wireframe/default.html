@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Support Chatbot Wireframe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <!-- Main chat panel -->
+        <section class="chat">
+            <header class="chat-header">
+                <div class="avatar" aria-hidden="true">CS</div>
+                <div class="chat-title">
+                    <strong>Customer Support</strong>
+                    <span class="status">
+                        <span class="status-dot" aria-hidden="true"></span>
+                        Online &middot; Replies in ~2 min
+                    </span>
+                </div>
+            </header>
+
+            <div class="messages">
+                <div class="date-divider"><span>Today</span></div>
+
+                <div class="message bot">
+                    <div class="avatar small" aria-hidden="true">CS</div>
+                    <div class="bubble">
+                        <p>Hi! I'm the customer support assistant. How can I help you today?</p>
+                        <span class="time">10:24</span>
+                    </div>
+                </div>
+
+                <div class="message user">
+                    <div class="avatar small" aria-hidden="true">U</div>
+                    <div class="bubble">
+                        <p>I need help with an order I placed yesterday.</p>
+                        <span class="time">10:25</span>
+                    </div>
+                </div>
+
+                <div class="message bot">
+                    <div class="avatar small" aria-hidden="true">CS</div>
+                    <div class="bubble">
+                        <p>I can help with that. Could you share your order number or the email used at checkout?</p>
+                        <span class="time">10:25</span>
+                    </div>
+                </div>
+
+                <div class="message user">
+                    <div class="avatar small" aria-hidden="true">U</div>
+                    <div class="bubble">
+                        <p>It's order #12345.</p>
+                        <span class="time">10:26</span>
+                    </div>
+                </div>
+
+                <div class="message bot typing">
+                    <div class="avatar small" aria-hidden="true">CS</div>
+                    <div class="bubble" aria-label="Support assistant is typing">
+                        <span class="typing-dot"></span>
+                        <span class="typing-dot"></span>
+                        <span class="typing-dot"></span>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="composer-wrap">
+                <div class="composer">
+                    <button type="button" class="attach-btn" aria-label="Attach a file">+</button>
+                    <div class="input-placeholder">Describe your issue...</div>
+                    <button type="button" class="send-btn">Send</button>
+                </div>
+                <p class="disclaimer">Automated support assistant. For urgent issues, ask to speak with a human agent.</p>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>

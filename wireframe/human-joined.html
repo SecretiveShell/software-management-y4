@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Joined - Customer Support Wireframe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <section class="chat">
+            <header class="chat-header">
+                <div class="avatar" aria-hidden="true">A</div>
+                <div class="chat-title">
+                    <strong>Alex &middot; Customer Support</strong>
+                    <span class="status">
+                        <span class="status-dot" aria-hidden="true"></span>
+                        Human agent &middot; Online
+                    </span>
+                </div>
+            </header>
+
+            <div class="messages">
+                <div class="date-divider"><span>Today</span></div>
+
+                <div class="message user">
+                    <div class="avatar small" aria-hidden="true">U</div>
+                    <div class="bubble">
+                        <p>My prints keep failing halfway through.</p>
+                        <span class="time">10:24</span>
+                    </div>
+                </div>
+
+                <div class="transfer-notice connected">
+                    <div class="transfer-icon" aria-hidden="true">A</div>
+                    <div class="transfer-info">
+                        <strong class="transfer-title">Alex joined the chat</strong>
+                        <span class="transfer-meta">Human support agent</span>
+                    </div>
+                </div>
+
+                <div class="message agent">
+                    <div class="avatar small" aria-hidden="true">A</div>
+                    <div class="bubble">
+                        <span class="sender">Alex &middot; Human agent</span>
+                        <p>Hi, I'm Alex. I've read the conversation so far. Let's take a look at that print failure together.</p>
+                        <span class="time">10:27</span>
+                    </div>
+                </div>
+
+                <div class="message user">
+                    <div class="avatar small" aria-hidden="true">U</div>
+                    <div class="bubble">
+                        <p>Thanks, it seems to happen after about 20 minutes.</p>
+                        <span class="time">10:28</span>
+                    </div>
+                </div>
+
+                <div class="message agent">
+                    <div class="avatar small" aria-hidden="true">A</div>
+                    <div class="bubble">
+                        <span class="sender">Alex &middot; Human agent</span>
+                        <p>Got it. Can you confirm the printer model and the filament you're using?</p>
+                        <span class="time">10:28</span>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="composer-wrap">
+                <div class="composer">
+                    <button type="button" class="attach-btn" aria-label="Attach a file">+</button>
+                    <div class="input-placeholder">Message Alex...</div>
+                    <button type="button" class="send-btn">Send</button>
+                </div>
+                <p class="disclaimer">You're now chatting with a human support agent.</p>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>

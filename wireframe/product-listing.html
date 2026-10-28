@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing - Customer Support Wireframe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <section class="chat">
+            <header class="chat-header">
+                <div class="avatar" aria-hidden="true">CS</div>
+                <div class="chat-title">
+                    <strong>Customer Support</strong>
+                    <span class="status">
+                        <span class="status-dot" aria-hidden="true"></span>
+                        Online &middot; Replies in ~2 min
+                    </span>
+                </div>
+            </header>
+
+            <div class="messages">
+                <div class="date-divider"><span>Today</span></div>
+
+                <div class="message user">
+                    <div class="avatar small" aria-hidden="true">U</div>
+                    <div class="bubble">
+                        <p>I'm looking for black PLA filament. Do you have any in stock?</p>
+                        <span class="time">10:24</span>
+                    </div>
+                </div>
+
+                <div class="message bot products">
+                    <div class="avatar small" aria-hidden="true">CS</div>
+                    <div class="bubble">
+                        <p>Yes, here are three black PLA filaments that are currently in stock:</p>
+
+                        <div class="product-list">
+                            <article class="product-card">
+                                <div class="product-image">Product image</div>
+                                <strong class="product-name">Basic PLA</strong>
+                                <span class="product-meta">Black &middot; 1.75 mm &middot; 1 kg</span>
+                                <div class="product-footer">
+                                    <span class="product-price">$19.99</span>
+                                    <span class="product-stock">In stock</span>
+                                </div>
+                                <button type="button" class="product-btn">View product</button>
+                            </article>
+
+                            <article class="product-card">
+                                <div class="product-image">Product image</div>
+                                <strong class="product-name">Matte PLA</strong>
+                                <span class="product-meta">Black &middot; 1.75 mm &middot; 1 kg</span>
+                                <div class="product-footer">
+                                    <span class="product-price">$22.99</span>
+                                    <span class="product-stock">In stock</span>
+                                </div>
+                                <button type="button" class="product-btn">View product</button>
+                            </article>
+
+                            <article class="product-card">
+                                <div class="product-image">Product image</div>
+                                <strong class="product-name">PLA+</strong>
+                                <span class="product-meta">Black &middot; 1.75 mm &middot; 1 kg</span>
+                                <div class="product-footer">
+                                    <span class="product-price">$24.99</span>
+                                    <span class="product-stock">Low stock</span>
+                                </div>
+                                <button type="button" class="product-btn">View product</button>
+                            </article>
+                        </div>
+
+                        <span class="time">10:25</span>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="composer-wrap">
+                <div class="composer">
+                    <button type="button" class="attach-btn" aria-label="Attach a file">+</button>
+                    <div class="input-placeholder">Ask a follow-up question...</div>
+                    <button type="button" class="send-btn">Send</button>
+                </div>
+                <p class="disclaimer">Prices and availability are subject to change.</p>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>

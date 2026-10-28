@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Unavailable - Customer Support Wireframe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <section class="chat">
+            <header class="chat-header">
+                <div class="avatar" aria-hidden="true">CS</div>
+                <div class="chat-title">
+                    <strong>Customer Support</strong>
+                    <span class="status">
+                        <span class="status-dot" aria-hidden="true"></span>
+                        Automated support &middot; Available 24/7
+                    </span>
+                </div>
+            </header>
+
+            <div class="messages">
+                <div class="date-divider"><span>Today</span></div>
+
+                <div class="message user">
+                    <div class="avatar small" aria-hidden="true">U</div>
+                    <div class="bubble">
+                        <p>I need to speak to a human agent, please.</p>
+                        <span class="time">10:24</span>
+                    </div>
+                </div>
+
+                <div class="message bot">
+                    <div class="avatar small" aria-hidden="true">CS</div>
+                    <div class="bubble">
+                        <span class="sender">Support assistant</span>
+                        <p>I'm sorry, no human agents are available right now. Human support hours are Monday to Friday, 09:00&ndash;17:00.</p>
+                        <p>Please send your email address and I'll pass it to the support team. They'll reply within 24 hours.</p>
+                        <span class="time">10:25</span>
+                    </div>
+                </div>
+
+                <div class="message user">
+                    <div class="avatar small" aria-hidden="true">U</div>
+                    <div class="bubble">
+                        <p>alex@example.com</p>
+                        <span class="time">10:26</span>
+                    </div>
+                </div>
+
+                <div class="message bot">
+                    <div class="avatar small" aria-hidden="true">CS</div>
+                    <div class="bubble">
+                        <span class="sender">Support assistant</span>
+                        <p>Thanks, I've passed your email address to the support team. They'll reply within 24 hours.</p>
+                        <span class="time">10:26</span>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="composer-wrap">
+                <div class="composer">
+                    <button type="button" class="attach-btn" aria-label="Attach a file">+</button>
+                    <div class="input-placeholder">Ask another question...</div>
+                    <button type="button" class="send-btn">Send</button>
+                </div>
+                <p class="disclaimer">Email request sent. The automated assistant is still available.</p>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>

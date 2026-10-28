@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Unavailable - Customer Support Wireframe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <section class="chat">
+            <header class="chat-header">
+                <div class="avatar" aria-hidden="true">CS</div>
+                <div class="chat-title">
+                    <strong>Customer Support</strong>
+                    <span class="status">
+                        <span class="status-dot offline" aria-hidden="true"></span>
+                        Support assistant unavailable
+                    </span>
+                </div>
+            </header>
+
+            <div class="messages">
+                <div class="welcome-panel">
+                    <div class="welcome-avatar" aria-hidden="true">!</div>
+                    <h1 class="welcome-title">The support assistant is unavailable</h1>
+                    <p class="welcome-text">We're having trouble connecting to the automated assistant. Please try again in a few minutes.</p>
+
+                    <div class="welcome-actions">
+                        <button type="button" class="secondary-btn primary">Try again</button>
+                    </div>
+
+                    <p class="welcome-meta">You can also email support@example.com.</p>
+                </div>
+            </div>
+
+            <footer class="composer-wrap">
+                <div class="composer is-disabled">
+                    <button type="button" class="attach-btn" aria-label="Attach a file" disabled>+</button>
+                    <div class="input-placeholder">The support assistant is temporarily unavailable...</div>
+                    <button type="button" class="send-btn" disabled>Send</button>
+                </div>
+                <p class="disclaimer">Please try again shortly.</p>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Answer - Customer Support Wireframe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <section class="chat">
+            <header class="chat-header">
+                <div class="avatar" aria-hidden="true">CS</div>
+                <div class="chat-title">
+                    <strong>Customer Support</strong>
+                    <span class="status">
+                        <span class="status-dot pending" aria-hidden="true"></span>
+                        Connecting to a human agent
+                    </span>
+                </div>
+            </header>
+
+            <div class="messages">
+                <div class="date-divider"><span>Today</span></div>
+
+                <div class="message user">
+                    <div class="avatar small" aria-hidden="true">U</div>
+                    <div class="bubble">
+                        <p>My printer is showing error code E0427. What does it mean?</p>
+                        <span class="time">10:24</span>
+                    </div>
+                </div>
+
+                <div class="message bot">
+                    <div class="avatar small" aria-hidden="true">CS</div>
+                    <div class="bubble">
+                        <span class="sender">Support assistant</span>
+                        <p>I couldn't find a reliable answer for that error code. I can connect you with a human agent, or you can try rephrasing your question.</p>
+                        <span class="time">10:25</span>
+                    </div>
+                </div>
+
+                <div class="message user">
+                    <div class="avatar small" aria-hidden="true">U</div>
+                    <div class="bubble">
+                        <p>Please connect me to a human agent.</p>
+                        <span class="time">10:26</span>
+                    </div>
+                </div>
+
+                <div class="message bot">
+                    <div class="avatar small" aria-hidden="true">CS</div>
+                    <div class="bubble">
+                        <span class="sender">Support assistant</span>
+                        <p>Of course, I'm connecting you now. A human agent will join this chat shortly.</p>
+                        <span class="time">10:26</span>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="composer-wrap">
+                <div class="composer is-disabled">
+                    <button type="button" class="attach-btn" aria-label="Attach a file" disabled>+</button>
+                    <div class="input-placeholder">A human agent will join this chat shortly...</div>
+                    <button type="button" class="send-btn" disabled>Send</button>
+                </div>
+                <p class="disclaimer">You're in the support queue. Please keep this chat open.</p>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>
