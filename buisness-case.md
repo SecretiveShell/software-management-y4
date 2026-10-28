@@ -30,7 +30,52 @@ Many routine customer enquiries are suitable for automation, creating an opportu
 
 ## Cost Benefit Appraisal
 
-...
+The appraisal covers a five-year period and compares the cost of building and operating the chatbot with the savings from reducing the 50-person support team. The full model is in `Cost Benefit Appraisal.xlsx`; the figures below are taken from that model.
+
+### Costs
+
+| Item | Start-up | Year 1 | Years 2–5 (per year) |
+|---|---:|---:|---:|
+| Initial development | £15,000.00 | — | — |
+| Server hosting | £75.92 | £1,886.04 | £1,886.04 |
+| IT administrator | — | £29,205.00 | £29,205.00 |
+| AI inference (GPT tokens) | — | £74.41 | £74.41 |
+| Monitoring (Grafana Cloud Pro) | — | £335.99 | £335.99 |
+| Training and change management | £5,000.00 | £1,000.00 | £1,000.00 |
+| Contingency (15% of non-staff operating costs) | £761.39 | £494.47 | £494.47 |
+| **Total** | **£20,837.31** | **£32,995.90** | **£32,995.90** |
+
+The five-year cost is **£185,740.90**. The IT administrator accounts for around 88% of annual running costs, while hosting, inference and monitoring together cost less than £2,300 per year. Inference is based on 250 queries per day at 10,000 tokens per query, which works out at approximately £0.0008 per query.
+
+### Benefits
+
+Savings are measured against the current 50-person team at £12.71 per hour, 8 hours per day, 5 days per week and 52 weeks per year (approximately £26,437 per employee per year). The headcount reduction is phased over the appraisal period:
+
+| Year | Support staff remaining | Annual saving |
+|---|---:|---:|
+| Year 1 | 45 | £132,184 |
+| Year 2 | 30 | £528,736 |
+| Year 3 | 15 | £925,288 |
+| Year 4 | 10 | £1,057,472 |
+| Year 5 | 10 | £1,057,472 |
+| **Total** | | **£3,701,152** |
+
+### Return on investment
+
+| | Start-up | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
+|---|---:|---:|---:|---:|---:|---:|
+| Net benefit | −£20,837 | £99,188 | £495,740 | £892,292 | £1,024,476 | £1,024,476 |
+| Cumulative | −£20,837 | £78,351 | £574,091 | £1,466,383 | £2,490,859 | £3,515,335 |
+
+The project recovers its start-up cost during Year 1, approximately three months after go-live if savings accrue evenly. Over five years the net benefit is **£3.52 million**, a return on investment of approximately **1,893%** against total costs of £185,741.
+
+### Assumptions and sensitivity
+
+- The case depends on the planned headcount reductions being achieved. If displaced staff are redeployed rather than removed, the savings are not realised.
+- Redundancy, severance and recruitment costs are not included in the model. These would reduce the net benefit; office, equipment and other overhead savings are also excluded, which offsets this to some extent.
+- The IT administrator is the largest recurring cost. If the role is absorbed by existing staff, annual operating costs fall from around £33,000 to around £3,800.
+- AI inference cost is highly insensitive to volume at the modelled scale; even a tenfold increase in usage would add less than £700 per year.
+- Revenue from improved retention or upselling is not included, so the benefit case is limited to direct cost savings.
 
 ## Alternative Options
 
