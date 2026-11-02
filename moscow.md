@@ -9,6 +9,9 @@
 - Security and data protection
 - Answers must be quality tested
 - Measure chatbot usage and cost per enquiry
+- Have the business branding
+- Application feels responsive
+- Be deployed as an OCI container
 
 ## Should
 
@@ -17,16 +20,19 @@
 - Operational monitoring dashboard and alerts
 - Customer feedback on responses
 - Structured escalation details for support staff
-- Have the business branding
 
 ## Could
 
 - Suggested questions and quick reply buttons
 - Multilingual support
 - Additional usage analytics
+- Provide data export for AI training
 
 ## Won't have
 
 - Complete replacement of human support
 - Support for topics outside agreed scope
-- Unapproved channels and integrations
+- Multimodal interactions (text only)
+- Email or SMS integration
+- Support user account management
+- Legacy browser support
