@@ -61,13 +61,13 @@ see above
 
 ### Issues
 
-- hardware cost increases due to AI
-- placement student is not always available due to uni work
-- placement student has some unexpected skill deficits and lack of experience
-- web developer is training placement student on the job which might cause delays
+- Hardware cost increases due to AI
+- Placement student is not always available due to uni work
+- Placement student has some unexpected skill deficits and lack of experience
+- Web developer is training placement student on the job which might cause delays
 
 ### Dependencies
 
-- server hosting provider
+- Server hosting provider
 - AI inference provider
-- reliable client communication
+- Reliable client communication
