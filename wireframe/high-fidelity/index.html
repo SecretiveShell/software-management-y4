@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#faebd7">
+    <meta name="description" content="Chatbot wireframe for John Jones Printers customer support.">
+    <title>Customer Support Chatbot · John Jones Printers</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23efefef' stroke='%238f8f8f' stroke-dasharray='4 3'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial,sans-serif' font-size='26' font-weight='700' fill='%23666666'%3EJJ%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+<a class="skip-link" href="#messages">Skip to conversation</a>
+
+    <aside class="seed-panel" aria-label="Valid seed messages">
+        <div class="seed-head">
+            <h2>Valid seed messages</h2>
+            <p>Click a message to send it into the chat.</p>
+        </div>
+
+        <div class="seed-group">
+            <h3>Orders</h3>
+            <button class="seed-item" type="button" data-seed-message="Where is my order?">Where is my order?</button>
+            <button class="seed-item" type="button" data-seed-message="Can I change the delivery address on my order? It has already shipped.">Can I change the delivery address?</button>
+            <button class="seed-item" type="button" data-seed-message="What are your delivery options?">What are your delivery options?</button>
+        </div>
+
+        <div class="seed-group">
+            <h3>Filament</h3>
+            <button class="seed-item" type="button" data-seed-message="I'm looking for black PLA filament">Which filament should I use?</button>
+            <button class="seed-item" type="button" data-seed-message="Can you compare PLA and PLA+?">Compare PLA and PLA+</button>
+            <button class="seed-item" type="button" data-seed-message="How should I store PLA?">How should I store PLA?</button>
+        </div>
+
+        <div class="seed-group">
+            <h3>Printing</h3>
+            <button class="seed-item" type="button" data-seed-message="My print keeps failing halfway through">My print keeps failing</button>
+            <button class="seed-item" type="button" data-seed-message="My prints have stringing">My prints have stringing</button>
+            <button class="seed-item" type="button" data-seed-message="My printer is showing error code E0427. What does it mean?">Printer error E0427</button>
+        </div>
+
+        <div class="seed-group">
+            <h3>Returns &amp; support</h3>
+            <button class="seed-item" type="button" data-seed-message="I'd like to return an item">I'd like to return an item</button>
+            <button class="seed-item" type="button" data-seed-message="What is your returns policy?">What is your returns policy?</button>
+            <button class="seed-item" type="button" data-seed-message="I need to speak to a human">I need to speak to a human</button>
+        </div>
+    </aside>
+
+<div id="main">
+    <section class="chat-card" aria-label="Customer support conversation">
+        <header class="chat-header">
+            <div class="chat-identity">
+                <div class="brand-mark" id="chatAvatar" aria-hidden="true">JJ</div>
+                <div class="chat-heading">
+                    <h1 id="chatTitle">John Jones Printers</h1>
+                    <p id="chatStatus"><span class="status-dot online" aria-hidden="true"></span> Support assistant · Online</p>
+                </div>
+            </div>
+            <div class="chat-actions">
+                <button class="icon-btn chat-action" id="faqBtn" type="button" aria-label="Open help centre">
+                    <span data-icon="help"></span>
+                </button>
+                <button class="icon-btn chat-action" id="voiceBtn" type="button" aria-label="Start a voice call">
+                    <span data-icon="phone"></span>
+                </button>
+                <button class="btn btn-quiet chat-action transfer-action" type="button" data-action="transfer">
+                    <span data-icon="headset"></span>
+                    <span class="chat-action-label">Talk to human</span>
+                </button>
+                <button class="icon-btn cart-btn" id="cartBtn" type="button" aria-label="Open cart">
+                    <span data-icon="bag"></span>
+                    <span class="cart-count" id="cartCount" hidden>0</span>
+                </button>
+                <div class="chat-menu-wrap">
+                    <button class="icon-btn" id="chatMenuBtn" type="button" aria-label="Conversation options" aria-expanded="false" aria-controls="chatMenu">
+                        <span data-icon="more"></span>
+                    </button>
+                    <div class="menu-popover" id="chatMenu" hidden>
+                        <button type="button" data-action="download-transcript">
+                            <span data-icon="download"></span> Download transcript
+                        </button>
+                        <button type="button" data-action="email-transcript">
+                            <span data-icon="mail"></span> Email transcript
+                        </button>
+                        <button type="button" data-action="report">
+                            <span data-icon="flag"></span> Report a problem
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="messages" id="messages" role="log" aria-live="polite" aria-relevant="additions" tabindex="0"></div>
+
+        <div class="quick-replies" id="quickReplies" aria-label="Suggested replies"></div>
+
+        <footer class="composer-wrap">
+            <div class="attachment-preview" id="attachmentPreview" hidden></div>
+            <form class="composer" id="composer">
+                <button class="icon-btn attach-btn" id="attachBtn" type="button" aria-label="Attach a file">
+                    <span data-icon="paperclip"></span>
+                </button>
+                <input type="file" id="fileInput" hidden>
+                <label class="sr-only" for="messageInput">Message JJ Assistant</label>
+                <textarea id="messageInput" rows="1" placeholder="Message JJ Assistant..." autocomplete="off"></textarea>
+                <button class="send-btn" id="sendBtn" type="submit" aria-label="Send message" disabled>
+                    <span data-icon="send"></span>
+                </button>
+            </form>
+            <p class="disclaimer" id="composerNote">Automated support assistant. For urgent issues, ask to speak with a human agent.</p>
+        </footer>
+    </section>
+</div>
+
+<!-- Product detail -->
+<div class="modal-backdrop" id="productModal" hidden>
+    <div class="modal product-modal" role="dialog" aria-modal="true" aria-labelledby="productTitle">
+        <button class="modal-close" type="button" data-close aria-label="Close product details"><span data-icon="x"></span></button>
+        <div class="product-modal-grid">
+            <div class="product-modal-visual" id="productModalVisual"></div>
+            <div class="product-modal-info">
+                <span class="eyebrow" id="productTag">John Jones filament</span>
+                <h2 id="productTitle">Basic PLA</h2>
+                <div class="rating-row" id="productRating"></div>
+                <p class="product-description" id="productDescription"></p>
+                <ul class="feature-list">
+                    <li><span data-icon="check"></span> 1.75 mm diameter, ±0.02 mm tolerance</li>
+                    <li><span data-icon="check"></span> Consistent extrusion from first layer to last</li>
+                    <li><span data-icon="check"></span> Recyclable cardboard spool</li>
+                </ul>
+                <div class="purchase-row">
+                    <strong class="modal-price" id="productPrice">£19.99</strong>
+                    <div class="qty-stepper" aria-label="Quantity">
+                        <button type="button" data-qty="down" aria-label="Decrease quantity"><span data-icon="minus"></span></button>
+                        <span id="productQty">1</span>
+                        <button type="button" data-qty="up" aria-label="Increase quantity"><span data-icon="plus"></span></button>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-block" id="productAdd" type="button">
+                    <span data-icon="bag"></span>
+                    Add to cart
+                </button>
+                <p class="stock-note" id="productStock">In stock · dispatched today</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Help centre -->
+<div class="modal-backdrop" id="faqModal" hidden>
+    <div class="modal faq-modal" role="dialog" aria-modal="true" aria-labelledby="faqTitle">
+        <header class="modal-header">
+            <div>
+                <span class="eyebrow">Support library</span>
+                <h2 id="faqTitle">Help centre</h2>
+            </div>
+            <button class="icon-btn" type="button" data-close aria-label="Close help centre"><span data-icon="x"></span></button>
+        </header>
+        <div class="faq-search">
+            <span data-icon="search"></span>
+            <label class="sr-only" for="faqSearch">Search help articles</label>
+            <input id="faqSearch" type="search" placeholder="Search orders, filament, returns...">
+        </div>
+        <div class="faq-list" id="faqList"></div>
+        <footer class="modal-footer">
+            <p>Can't find what you need?</p>
+            <button class="btn btn-primary" id="faqAsk" type="button">
+                <span data-icon="sparkle"></span>
+                Ask JJ Assistant
+            </button>
+        </footer>
+    </div>
+</div>
+
+<!-- Cart -->
+<div class="modal-backdrop" id="cartModal" hidden>
+    <div class="modal cart-modal" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+        <header class="modal-header">
+            <div>
+                <span class="eyebrow">Your basket</span>
+                <h2 id="cartTitle">Cart</h2>
+            </div>
+            <button class="icon-btn" type="button" data-close aria-label="Close cart"><span data-icon="x"></span></button>
+        </header>
+        <div class="cart-body" id="cartBody"></div>
+        <footer class="cart-footer" id="cartFooter">
+            <div class="cart-total-row">
+                <span>Subtotal</span>
+                <strong id="cartSubtotal">£0.00</strong>
+            </div>
+            <p>Shipping and taxes calculated at checkout.</p>
+            <button class="btn btn-primary btn-block" id="checkoutBtn" type="button">Go to checkout</button>
+        </footer>
+    </div>
+</div>
+
+<!-- Voice call -->
+<div class="modal-backdrop" id="voiceModal" hidden>
+    <div class="modal voice-modal" role="dialog" aria-modal="true" aria-labelledby="voiceTitle">
+        <button class="modal-close" type="button" data-close aria-label="Close voice call"><span data-icon="x"></span></button>
+        <div class="voice-orb" id="voiceOrb" aria-hidden="true">
+            <span data-icon="waveform"></span>
+        </div>
+        <span class="eyebrow">Voice support</span>
+        <h2 id="voiceTitle">JJ Assistant</h2>
+        <p class="voice-status" id="voiceStatus">Connecting securely…</p>
+        <div class="waveform" id="waveform" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <p class="call-timer" id="callTimer">00:00</p>
+        <div class="voice-actions">
+            <button class="call-btn" id="muteBtn" type="button" aria-label="Mute microphone" aria-pressed="false">
+                <span data-icon="mic"></span>
+            </button>
+            <button class="call-btn call-end" id="endCallBtn" type="button" aria-label="End call">
+                <span data-icon="phone-off"></span>
+            </button>
+        </div>
+        <p class="voice-hint">Voice support is simulated in this wireframe.</p>
+    </div>
+</div>
+
+<!-- Video -->
+<div class="modal-backdrop" id="videoModal" hidden>
+    <div class="modal video-modal" role="dialog" aria-modal="true" aria-labelledby="videoTitle">
+        <button class="modal-close" type="button" data-close aria-label="Close video"><span data-icon="x"></span></button>
+        <div class="video-player" id="videoPlayer">
+            <div class="video-poster" id="videoPoster">
+                <span class="video-badge">2 min fix</span>
+                <button class="play-btn" id="playBtn" type="button" aria-label="Play video">
+                    <span data-icon="play"></span>
+                </button>
+            </div>
+            <div class="video-controls">
+                <button class="icon-btn" id="videoToggle" type="button" aria-label="Pause video"><span data-icon="pause"></span></button>
+                <div class="video-track" aria-hidden="true"><span id="videoProgress"></span></div>
+                <span class="video-time" id="videoTime">0:00 / 1:42</span>
+            </div>
+        </div>
+        <h2 id="videoTitle">Fixing layer shifts on a 3D printer</h2>
+        <p>A short walkthrough covering belt tension, print speed and first-layer adhesion.</p>
+    </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
