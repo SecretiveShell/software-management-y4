@@ -1,0 +1,30 @@
+@startuml
+!include <C4/C4_Context>
+LAYOUT_LEFT_RIGHT()
+LAYOUT_WITH_LEGEND()
+title System Context - JJ Assistant customer support chatbot
+
+Person(customer, "Customer", "A John Jones Printers customer who needs help with an order, product, printer or return.")
+Person(agent, "Human Support Agent", "One of the remaining support staff. Handles escalated or complex conversations.")
+Person(admin, "IT Administrator", "Deploys, configures, monitors and maintains the service.")
+
+System(chatbot, "JJ Assistant", "AI customer support chatbot. Answers approved questions 24/7 across web chat and voice, looks up order and product data, and escalates to a human when needed.")
+
+System_Ext(llm, "AI Inference Provider", "OpenAI-compatible LLM API used to generate answers. A failover provider is available.")
+System_Ext(commerce, "Product & Order Systems", "Product catalogue, stock levels and customer order records.")
+System_Ext(courier, "Courier Tracking", "Royal Mail parcel tracking updates.")
+System_Ext(email, "Email Service", "Sends return labels, transcripts and offline follow-up messages.")
+System_Ext(sources, "Approved Support Sources", "FAQs, product guides, policies and troubleshooting videos approved by the business.")
+System_Ext(monitoring, "Grafana Cloud", "Dashboards and alerts for availability, answer quality and cost per enquiry.")
+
+Rel(customer, chatbot, "Asks support questions", "Web chat / voice")
+Rel(agent, chatbot, "Takes over escalated conversations", "Agent console")
+Rel(admin, chatbot, "Deploys, configures and monitors", "HTTPS / SSH")
+Rel(chatbot, llm, "Sends prompts and receives completions", "HTTPS/JSON")
+Rel(chatbot, commerce, "Reads orders, products and stock", "HTTPS/JSON")
+Rel(chatbot, courier, "Checks parcel status", "HTTPS/JSON")
+Rel(chatbot, email, "Sends labels and follow-ups", "HTTPS/API")
+Rel(chatbot, sources, "Retrieves approved answers", "Indexed content")
+Rel(chatbot, monitoring, "Sends metrics and logs", "HTTPS")
+
+@enduml
