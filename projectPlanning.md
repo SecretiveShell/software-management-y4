@@ -24,35 +24,35 @@
 
 ## Table
 
-| No. | Predecessor | Activity | Days |
-|--------|--------|--------|--------|
-| 1 | — | Client meeting and gather requirements | 0.5 |
-| 2 | 1 | Create PID | 1 |
-| 3 | 1 | Create Business Case | 2 |
-| 4 | 3 | Create Cost Benefit Appraisal | 1 |
-| 5 | 1 | Create MoSCoW Analysis | 0.5 |
-| 6 | 2, 5 | Create Risk Management Plan | 0.5 |
-| 7 | 5 | Create low-fidelity wireframes | 1 |
-| 8 | 7 | Create high-fidelity wireframes | 2 |
-| 9 | 3 | Create Force Field Analysis | 0.5 |
-| 10 | 5 | Create COCOMO estimate | 0.5 |
-| 11 | 5 | Create testing plan and acceptance tests | 2 |
-| 12 | 8 | Develop chatbot UI | 2 |
-| 13 | 5 | Develop API integrations | 1 |
-| 14 | 5 | Prepare FAQs and approved knowledge sources | 2 |
-| 15 | 13, 14 | Integrate and configure AI chatbot | 2 |
-| 16 | 12, 15 | Create chat message entry and display | 0.5 |
-| 17 | 15 | Develop human escalation feature | 1 |
-| 18 | 15 | Develop AI voice call pipeline | 2 |
-| 19 | 15 | Implement support category routing | 1 |
-| 20 | 16, 19 | Integrate pre-recorded support videos | 1 |
-| 21 | 16, 17, 18, 19, 20 | Integrate text, voice and escalation features | 1 |
-| 22 | 21 | Implement security and data protection controls | 1 |
-| 23 | 21 | Implement usage and cost monitoring | 1 |
-| 24 | 11, 22, 23 | Conduct functional and integration testing | 2 |
-| 25 | 24 | Conduct user acceptance testing and fix critical issues | 2 |
-| 26 | 25 | Deploy chatbot as OCI container | 1 |
-| 27 | 26 | Client demonstration, documentation and handover | 1 |
+| No. | Predecessor        | Activity                                                | Days |
+|-----|--------------------|---------------------------------------------------------|------|
+| 1   | —                  | Client meeting and gather requirements                  | 0.5  |
+| 2   | 1                  | Create PID                                              | 1    |
+| 3   | 1                  | Create Business Case                                    | 2    |
+| 4   | 3                  | Create Cost Benefit Appraisal                           | 1    |
+| 5   | 1                  | Create MoSCoW Analysis                                  | 0.5  |
+| 6   | 2, 5               | Create Risk Management Plan                             | 0.5  |
+| 7   | 5                  | Create low-fidelity wireframes                          | 1    |
+| 8   | 7                  | Create high-fidelity wireframes                         | 2    |
+| 9   | 3                  | Create Force Field Analysis                             | 0.5  |
+| 10  | 5                  | Create COCOMO estimate                                  | 0.5  |
+| 11  | 5                  | Create testing plan and acceptance tests                | 2    |
+| 12  | 8                  | Develop chatbot UI                                      | 2    |
+| 13  | 5                  | Develop API integrations                                | 1    |
+| 14  | 5                  | Prepare FAQs and approved knowledge sources             | 2    |
+| 15  | 13, 14             | Integrate and configure AI chatbot                      | 2    |
+| 16  | 12, 15             | Create chat message entry and display                   | 0.5  |
+| 17  | 15                 | Develop human escalation feature                        | 1    |
+| 18  | 15                 | Develop AI voice call pipeline                          | 2    |
+| 19  | 15                 | Implement support category routing                      | 1    |
+| 20  | 16, 19             | Integrate pre-recorded support videos                   | 1    |
+| 21  | 16, 17, 18, 19, 20 | Integrate text, voice and escalation features           | 1    |
+| 22  | 21                 | Implement security and data protection controls         | 1    |
+| 23  | 21                 | Implement usage and cost monitoring                     | 1    |
+| 24  | 11, 22, 23         | Conduct functional and integration testing              | 2    |
+| 25  | 24                 | Conduct user acceptance testing and fix critical issues | 2    |
+| 26  | 25                 | Deploy chatbot as OCI container                         | 1    |
+| 27  | 26                 | Client demonstration, documentation and handover        | 1    |
 
 
 ---------------------------------------------------------------
@@ -259,33 +259,32 @@
 
 ## Work Packages
 
-| Package No. | Product Description | Estimated Effort | Due Date | Responsibility |
-|---|---|---|---|---|
-| 1 | Client meeting and requirements document | 0.5 days | Week 1 | Project Manager / Business Analyst |
-| 2 | Project Initiation Document (PID) | 1 day | Week 1 | Project Manager |
-| 3 | Business Case | 2 days | Week 1 | Business Analyst |
-| 4 | Cost Benefit Appraisal | 1 day | Week 1 | Business Analyst |
-| 5 | MoSCoW Analysis document | 0.5 days | Week 1 | Business Analyst |
-| 6 | Risk Management Plan | 0.5 days | Week 1 | Project Manager |
-| 7 | Low-fidelity wireframes | 1 day | Week 2 | UI/UX Designer |
-| 8 | High-fidelity wireframes | 2 days | Week 2 | UI/UX Designer |
-| 9 | Force Field Analysis | 0.5 days | Week 1 | Project Manager / Business Analyst |
-| 10 | COCOMO estimation document | 0.5 days | Week 1 | Technical Lead |
-| 11 | Testing plan and acceptance criteria | 2 days | Week 2 | Tester / Business Analyst |
-| 12 | Chatbot user interface | 2 days | Week 3 | Frontend Developer |
-| 13 | API connections and integrations | 1 day | Week 3 | Backend Developer |
-| 14 | Approved FAQ knowledge base | 2 days | Week 3 | Business Analyst / AI Developer |
-| 15 | AI chatbot configuration and response system | 2 days | Week 3 | AI Developer |
-| 16 | Chat message entry and display functionality | 0.5 days | Week 3 | Frontend Developer |
-| 17 | Human escalation feature | 1 day | Week 4 | Backend Developer |
-| 18 | AI voice-call agent and telephone integration | 2 days | Week 4 | AI Developer |
-| 19 | Customer enquiry category routing | 1 day | Week 4 | Backend Developer |
-| 20 | Pre-recorded instructional video integration | 1 day | Week 4 | Frontend Developer |
-| 21 | Integrated text, voice and escalation system | 1 day | Week 4 | Technical Lead / Developers |
-| 22 | Security and data protection controls | 1 day | Week 4 | Backend Developer |
-| 23 | Usage and cost monitoring functionality | 1 day | Week 4 | Backend Developer |
-| 24 | Functional and integration testing results | 2 days | Week 5 | Tester / Developers |
-| 25 | User acceptance testing and critical defect fixes | 2 days | Week 5 | Tester / Client / Developers |
-| 26 | Deployed chatbot system using an OCI container | 1 day | Week 5 | Technical Lead |
-| 27 | Client handover and supporting documentation | 1 day | Week 5 | Project Manager / Technical Lead |
-
+| Package No. | Product Description                               | Estimated Effort | Due Date | Responsibility         |
+|-------------|---------------------------------------------------|------------------|----------|------------------------|
+| 1           | Client meeting and requirements document          | 0.5 days         | Week 1   | Business Analyst       |
+| 2           | Project Initiation Document (PID)                 | 1 day            | Week 1   | Business Analyst       |
+| 3           | Business Case                                     | 2 days           | Week 1   | Business Analyst       |
+| 4           | Cost Benefit Appraisal                            | 1 day            | Week 1   | Business Analyst       |
+| 5           | MoSCoW Analysis document                          | 0.5 days         | Week 1   | Business Analyst       |
+| 6           | Risk Management Plan                              | 0.5 days         | Week 1   | Business Analyst       |
+| 7           | Low-fidelity wireframes                           | 1 day            | Week 2   | TDA                    |
+| 8           | High-fidelity wireframes                          | 2 days           | Week 2   | TDA                    |
+| 9           | Force Field Analysis                              | 0.5 days         | Week 1   | Business Analyst       |
+| 10          | COCOMO estimation document                        | 0.5 days         | Week 1   | Business Analyst       |
+| 11          | Testing plan and acceptance criteria              | 2 days           | Week 2   | Business Analyst       |
+| 12          | Chatbot user interface                            | 2 days           | Week 3   | Web Developer          |
+| 13          | API connections and integrations                  | 1 day            | Week 3   | Web Developer          |
+| 14          | Approved FAQ knowledge base                       | 2 days           | Week 3   | Business Analyst       |
+| 15          | AI chatbot configuration and response system      | 2 days           | Week 3   | Web Developer          |
+| 16          | Chat message entry and display functionality      | 0.5 days         | Week 3   | Web Developer          |
+| 17          | Human escalation feature                          | 1 day            | Week 4   | Web Developer          |
+| 18          | AI voice-call agent and telephone integration     | 2 days           | Week 4   | Web Developer          |
+| 19          | Customer enquiry category routing                 | 1 day            | Week 4   | Web Developer          |
+| 20          | Pre-recorded instructional video integration      | 1 day            | Week 4   | Web Developer          |
+| 21          | Integrated text, voice and escalation system      | 1 day            | Week 4   | TDA                    |
+| 22          | Security and data protection controls             | 1 day            | Week 4   | Web Developer          |
+| 23          | Usage and cost monitoring functionality           | 1 day            | Week 4   | Web Developer          |
+| 24          | Functional and integration testing results        | 2 days           | Week 5   | Web Developer          |
+| 25          | User acceptance testing and critical defect fixes | 2 days           | Week 5   | Client / Web Developer |
+| 26          | Deployed chatbot system using an OCI container    | 1 day            | Week 5   | TDA                    |
+| 27          | Client handover and supporting documentation      | 1 day            | Week 5   | Business Analyst       |
