@@ -54,6 +54,51 @@
 | 26  | 25                 | Deploy chatbot as OCI container                         | 1    |
 | 27  | 26                 | Client demonstration, documentation and handover        | 1    |
 
+## Gantt Chart
+
+
+```mermaid
+gantt
+    title AI Customer Support System — Project Schedule
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b
+    excludes weekends
+
+    section Planning
+    Client meeting and gather requirements                  :crit, t1, 2026-11-16, 0.5d
+    Create PID                                              :t2, after t1, 1d
+    Create Business Case                                    :t3, after t1, 2d
+    Create Cost Benefit Appraisal                           :t4, after t3, 1d
+    Create MoSCoW Analysis                                  :crit, t5, after t1, 0.5d
+    Create Risk Management Plan                             :t6, after t2 t5, 0.5d
+    Create Force Field Analysis                             :t9, after t3, 0.5d
+    Create COCOMO estimate                                  :t10, after t5, 0.5d
+    Create testing plan and acceptance tests                :t11, after t5, 2d
+
+    section Design and content
+    Create low-fidelity wireframes                          :crit, t7, after t5, 1d
+    Create high-fidelity wireframes                         :crit, t8, after t7, 2d
+    Prepare FAQs and approved knowledge sources             :t14, after t5, 2d
+
+    section Development
+    Develop chatbot UI                                      :crit, t12, after t8, 2d
+    Develop API integrations                                :t13, after t5, 1d
+    Integrate and configure AI chatbot                      :t15, after t13 t14, 2d
+    Create chat message entry and display                   :crit, t16, after t12 t15, 0.5d
+    Develop human escalation feature                        :t17, after t15, 1d
+    Develop AI voice call pipeline                          :t18, after t15, 2d
+    Implement support category routing                      :t19, after t15, 1d
+    Integrate pre-recorded support videos                   :crit, t20, after t16 t19, 1d
+    Integrate text, voice and escalation features           :crit, t21, after t16 t17 t18 t19 t20, 1d
+    Implement security and data protection controls         :crit, t22, after t21, 1d
+    Implement usage and cost monitoring                     :crit, t23, after t21, 1d
+
+    section Testing and deployment
+    Conduct functional and integration testing              :crit, t24, after t11 t22 t23, 2d
+    Conduct user acceptance testing and fix critical issues :crit, t25, after t24, 2d
+    Deploy chatbot as OCI container                         :crit, t26, after t25, 1d
+    Client demonstration, documentation and handover        :crit, t27, after t26, 1d
+```
 
 ---------------------------------------------------------------
 ## Product Descriptions
@@ -282,7 +327,7 @@
 | 19          | Customer enquiry category routing                 | 1 day            | Week 4   | Web Developer          |
 | 20          | Pre-recorded instructional video integration      | 1 day            | Week 4   | Web Developer          |
 | 21          | Integrated text, voice and escalation system      | 1 day            | Week 4   | TDA                    |
-| 22          | Security and data protection controls             | 1 day            | Week 4   | Web Developer          |
+| 22          | Security and data protection controls             | 1 day            | Week 4   | TDA                    |
 | 23          | Usage and cost monitoring functionality           | 1 day            | Week 4   | Web Developer          |
 | 24          | Functional and integration testing results        | 2 days           | Week 5   | Web Developer          |
 | 25          | User acceptance testing and critical defect fixes | 2 days           | Week 5   | Client / Web Developer |
