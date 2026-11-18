@@ -304,32 +304,32 @@ gantt
 
 ## Work Packages
 
-| Package No. | Product Description                               | Estimated Effort | Due Date | Responsibility         |
-|-------------|---------------------------------------------------|------------------|----------|------------------------|
-| 1           | Client meeting and requirements document          | 0.5 days         | Week 1   | Business Analyst       |
-| 2           | Project Initiation Document (PID)                 | 1 day            | Week 1   | Business Analyst       |
-| 3           | Business Case                                     | 2 days           | Week 1   | Business Analyst       |
-| 4           | Cost Benefit Appraisal                            | 1 day            | Week 1   | Business Analyst       |
-| 5           | MoSCoW Analysis document                          | 0.5 days         | Week 1   | Business Analyst       |
-| 6           | Risk Management Plan                              | 0.5 days         | Week 1   | Business Analyst       |
-| 7           | Low-fidelity wireframes                           | 1 day            | Week 2   | TDA                    |
-| 8           | High-fidelity wireframes                          | 2 days           | Week 2   | TDA                    |
-| 9           | Force Field Analysis                              | 0.5 days         | Week 1   | Business Analyst       |
-| 10          | COCOMO estimation document                        | 0.5 days         | Week 1   | Business Analyst       |
-| 11          | Testing plan and acceptance criteria              | 2 days           | Week 2   | Business Analyst       |
-| 12          | Chatbot user interface                            | 2 days           | Week 3   | Web Developer          |
-| 13          | API connections and integrations                  | 1 day            | Week 3   | Web Developer          |
-| 14          | Approved FAQ knowledge base                       | 2 days           | Week 3   | Business Analyst       |
-| 15          | AI chatbot configuration and response system      | 2 days           | Week 3   | Web Developer          |
-| 16          | Chat message entry and display functionality      | 0.5 days         | Week 3   | Web Developer          |
-| 17          | Human escalation feature                          | 1 day            | Week 4   | Web Developer          |
-| 18          | AI voice-call agent and telephone integration     | 2 days           | Week 4   | Web Developer          |
-| 19          | Customer enquiry category routing                 | 1 day            | Week 4   | Web Developer          |
-| 20          | Pre-recorded instructional video integration      | 1 day            | Week 4   | Web Developer          |
-| 21          | Integrated text, voice and escalation system      | 1 day            | Week 4   | TDA                    |
-| 22          | Security and data protection controls             | 1 day            | Week 4   | TDA                    |
-| 23          | Usage and cost monitoring functionality           | 1 day            | Week 4   | Web Developer          |
-| 24          | Functional and integration testing results        | 2 days           | Week 5   | Web Developer          |
-| 25          | User acceptance testing and critical defect fixes | 2 days           | Week 5   | Client / Web Developer |
-| 26          | Deployed chatbot system using an OCI container    | 1 day            | Week 5   | TDA                    |
-| 27          | Client handover and supporting documentation      | 1 day            | Week 5   | Business Analyst       |
+| Package | Product Description                               | Estimated Effort | Start    | Responsibility         |
+|---------|---------------------------------------------------|------------------|----------|------------------------|
+| 1.1.1   | Client meeting and requirements document          | 0.5 days         | Week 1   | Business Analyst       |
+| 1.1.2   | Project Initiation Document (PID)                 | 1 day            | Week 1   | Business Analyst       |
+| 1.1.3   | Business Case                                     | 2 days           | Week 1   | Business Analyst       |
+| 1.1.3.1 | Cost Benefit Appraisal                            | 1 day            | Week 1   | Business Analyst       |
+| 1.1.2.1 | MoSCoW Analysis document                          | 0.5 days         | Week 1   | Business Analyst       |
+| 1.1.2.2 | Risk Management Plan                              | 0.5 days         | Week 1   | Business Analyst       |
+| 1.2.1   | Low-fidelity wireframes                           | 1 day            | Week 2   | TDA                    |
+| 1.2.2   | High-fidelity wireframes                          | 2 days           | Week 2   | TDA                    |
+| 1.1.2.3 | Force Field Analysis                              | 0.5 days         | Week 1   | Business Analyst       |
+| 1.1.2.4 | COCOMO estimation document                        | 0.5 days         | Week 1   | Business Analyst       |
+| 1.5.1   | Testing plan and acceptance criteria              | 2 days           | Week 2   | Business Analyst       |
+| 1.3.1   | Chatbot user interface                            | 2 days           | Week 3   | Web Developer          |
+| 1.3.2   | API connections and integrations                  | 1 day            | Week 3   | Web Developer          |
+| 1.2.3   | Approved FAQ knowledge base                       | 2 days           | Week 3   | Business Analyst       |
+| 1.3.3   | AI chatbot configuration and response system      | 2 days           | Week 3   | Web Developer          |
+| 1.3.1.1 | Chat message entry and display functionality      | 0.5 days         | Week 3   | Web Developer          |
+| 1.3.3.1 | Human escalation feature                          | 1 day            | Week 4   | Web Developer          |
+| 1.3.3.2 | AI voice-call agent and telephone integration     | 2 days           | Week 4   | Web Developer          |
+| 1.3.3.3 | Customer enquiry category routing                 | 1 day            | Week 4   | Web Developer          |
+| 1.3.1.2 | Pre-recorded instructional video integration      | 1 day            | Week 4   | Web Developer          |
+| 1.4.1   | Integrated text, voice and escalation system      | 1 day            | Week 4   | TDA                    |
+| 1.4.1.1 | Security and data protection controls             | 1 day            | Week 4   | TDA                    |
+| 1.4.1.2 | Usage and cost monitoring functionality           | 1 day            | Week 4   | Web Developer          |
+| 1.5.2   | Functional and integration testing results        | 2 days           | Week 5   | Web Developer          |
+| 1.5.3   | User acceptance testing and critical defect fixes | 2 days           | Week 5   | Client / Web Developer |
+| 1.6.1   | Deployed chatbot system using an OCI container    | 1 day            | Week 5   | TDA                    |
+| 1.6.2   | Client handover and supporting documentation      | 1 day            | Week 5   | Business Analyst       |
