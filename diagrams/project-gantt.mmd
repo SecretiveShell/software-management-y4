@@ -1,0 +1,39 @@
+
+gantt
+    title AI Customer Support System - Project Schedule
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b
+    excludes weekends
+    section Planning
+    Client meeting and gather requirements - BA              :crit, t1, 2026-11-23, 0.5d
+    Create PID - BA                                          :t2, after t1, 1d
+    Create Business Case - BA                                :t3, after t1, 2d
+    Create Cost Benefit Appraisal - BA                       :t4, after t3, 1d
+    Create MoSCoW Analysis - BA                              :crit, t5, after t1, 0.5d
+    Create Risk Management Plan - BA                         :t6, after t2 t5, 0.5d
+    Create Force Field Analysis - BA                          :t9, after t3, 0.5d
+    Create COCOMO estimate - BA                              :t10, after t5, 0.5d
+    Create testing plan and acceptance tests - BA             :t11, after t5, 2d
+    section Design and content
+    Create low-fidelity wireframes - TDA                     :crit, t7, after t5, 1d
+    Create high-fidelity wireframes - TDA                     :crit, t8, after t7, 2d
+    Prepare FAQs and approved knowledge sources - BA          :t14, after t5, 2d
+    section Development
+    Develop chatbot UI - Web Dev                              :crit, t12, after t8, 2d
+    Develop API integrations - Web Dev                        :t13, after t5, 1d
+    Integrate and configure AI chatbot - Web Dev              :t15, after t13 t14, 2d
+    Create chat message entry and display - Placement Student :crit, t16, after t12 t15, 0.5d
+    Develop human escalation feature - Web Dev                 :t17, after t15, 1d
+    Develop AI voice call pipeline - Web Dev                   :t18, after t15, 2d
+    Implement support category routing - Web Dev               :t19, after t15, 1d
+    Integrate pre-recorded support videos - Placement Student  :crit, t20, after t16 t19, 1d
+    Integrate text, voice and escalation features - Web Dev    :crit, t21, after t16 t17 t18 t19 t20, 1d
+    Implement security and data protection controls - Web Dev  :crit, t22, after t21, 1d
+    Implement usage and cost monitoring - Web Dev              :crit, t23, after t21, 1d
+    section Testing and deployment
+    Conduct functional and integration testing - Web Dev       :crit, t24, after t11 t22 t23, 2d
+    Conduct user acceptance testing and fix critical issues - Client/BA :crit, t25, after t24, 2d
+    Deploy chatbot as OCI container - Web Dev                  :crit, t26, after t25, 1d
+    Client demonstration, documentation and handover - BA      :crit, t27, after t26, 1d
+    section Contingency
+    Schedule contingency buffer - management reserve            :t28, after t27, 5d
